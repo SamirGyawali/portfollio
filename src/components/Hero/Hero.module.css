@@ -1,0 +1,69 @@
+@import '../../vars.css';
+@import "../../index.css";
+
+.container{
+    display:flex;
+    align-items: center;
+    margin-left: 194px;
+    justify-content: space-between;
+}
+.content .names{
+    box-sizing: border-box;
+    height: max-content;
+    width: max-content;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 109px;
+}
+
+.content .fname{
+    margin-bottom: 0px;
+    color: var(--color-dark);
+    font-size: 145px;
+    font-family: "aileron-black";
+    background-color: transparent;
+    letter-spacing: -8px;
+    /* line-height: 80%; */
+}
+.content .lname{
+    color: var(--color-primary);
+    font-family: "aileron-thin";
+    font-size: 90px;
+    line-height: 40%;
+    letter-spacing: -8px;
+
+}
+.names .intro{
+    font-family: "aileron-semibold";
+    color: var(--color-neutral);
+    margin-left: 12px;
+    margin-top: 10px;
+    margin-bottom: 0px;
+}
+.contentwrap .intro02{
+    font-family: "aileron-bold";
+    font-size: 35px;
+    margin-bottom: 15px;
+}
+.contentwrap .description{
+    font-family: "aileron-regular";
+    font-size: 20px;
+    margin-bottom: 108px;
+}
+.contentwrap .conclusiondiv .conclusion{
+    color: var(--color-neutral);
+    font-family: "aileron-regular";
+}
+.contentwrap .conclusiondiv .color{
+    color: var(--color-primary);
+    font-family: "aileron-heavy";
+}
+
+
+
+
+
+
+.heroImg{
+    height:90vh ;
+}
